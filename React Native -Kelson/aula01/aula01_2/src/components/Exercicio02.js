@@ -16,7 +16,7 @@ const Exercicio02 = () => {
   return (
     <View style={styles.container}>
         <Button title='incrementar' onPress={incrementar} />        
-        <text>O contador está em: {contador}</text>
+        <Text>O contador está em: {contador}</Text>
         <Button title='decrementar' onPress={decrementar} />
     </View>
   )

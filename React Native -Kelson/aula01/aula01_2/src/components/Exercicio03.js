@@ -1,29 +1,41 @@
-import { View, Text, TextInput, StyleSheet } from 'react-native'
-import { useState } from 'react'
-import React from 'react'
+import { View, Text, TextInput, StyleSheet } from 'react-native';
+import { useState } from 'react';
+import React from 'react';
 
 const Exercicio03 = () => {
+    const [text, setText] = useState('');
 
-    const [text, setText] = useState('')
-
-  return (
-    <View styles={SVGAnimatedNumberList.container}>
-      <TextInput
-        value={text}
-        onChangeText={setText}
-        placeholder="Digite algo aqui..."        
-      />
-      <Text>Você digitou: {text}</Text>
-    </View>
-  )
+    return (
+        <View style={styles.container}>
+            <TextInput
+                value={text}
+                onChangeText={setText}
+                placeholder="Digite algo aqui..."
+                style={styles.input}
+            />
+            {/* O texto deve ser renderizado corretamente */}
+            <Text style={styles.outputText}>Você digitou: {text}</Text>
+        </View>
+    );
 }
 
 const styles = StyleSheet.create({
     container: {
-        alignItems:'center',
-        justifyContent: 'center',
-        padding: 100
-    }
-})
+        flex: 1, 
+        justifyContent: 'center', 
+        padding: 20,
+        marginTop: 40,
+    },
+    input: {
+        height: 40,
+        borderColor: 'gray',
+        borderWidth: 1,
+        padding: 10,
+        marginBottom: 20, 
+        width: '80%', 
+        alignSelf: 'center', 
+    },
+    
+});
 
-export default Exercicio03
+export default Exercicio03;
