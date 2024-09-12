@@ -14,3 +14,8 @@
 
 <img src="https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula01/aula01_2/assets/exercicio04.jpeg?raw=true" alt="Exercicio04" width="300" />
 
+### Aula 02/Exercicio01
+
+<img src="https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula02/assets/exercicio01.jpeg?raw=true" alt="Exercicio01" width="300" />
+
+https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula02/assets/exercicio01.jpeg?raw=true
