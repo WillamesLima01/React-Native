@@ -4,7 +4,7 @@ import Exercicio05 from './src/components/Exercicio05'
 
 const App = () => {
   return (
-    <View>
+    <View style={{ flex: 1 }}>
       <Exercicio05 />
     </View>
   )

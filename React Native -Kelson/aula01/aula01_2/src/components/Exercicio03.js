@@ -21,8 +21,8 @@ const Exercicio03 = () => {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1, 
-        justifyContent: 'center', 
+        flex: 1,
+        justifyContent: 'center',
         padding: 20,
         marginTop: 40,
     },
@@ -31,11 +31,15 @@ const styles = StyleSheet.create({
         borderColor: 'gray',
         borderWidth: 1,
         padding: 10,
-        marginBottom: 20, 
-        width: '80%', 
-        alignSelf: 'center', 
+        marginBottom: 20,
+        width: '80%',
+        alignSelf: 'center',
     },
-    
+    outputText: {
+        textAlign: 'center',
+        fontSize: 18,
+        color: 'blue', // Adiciona cor ao texto para garantir que seja visível
+    },
 });
 
 export default Exercicio03;
