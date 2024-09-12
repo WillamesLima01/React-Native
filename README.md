@@ -1,127 +1,35 @@
-App.js
-import { View, Text } from 'react-native'
-import React from 'react'
-import Exercicio04 from './src/components/Exercicio04'
+### Aula 01/Exercicio01
 
-const App = () => {
+<img src="https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula01/aula01_2/assets/exercicio01.jpeg?raw=true" alt="Exercicio01" width="300" />
 
-  const itens = ['Arroz', 'Feijão', 'macarrão', 'Pizza'];
+### Aula 01/Exercicio02
 
-  return (
-    <View>
-      {/* <Exercicio01 nome="willames" />*/}
-      {/* <Exercicio02" />*/}
-       {/* <Exercicio03" />*/}
-      <Exercicio04 itens={itens} />
-    </View>
-  )
-}
-export default App
+<img src="https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula01/aula01_2/assets/exercicio02.jpeg?raw=true" alt="Exercicio02" width="300" />
 
-exercicio01
-import { View, Text } from 'react-native'
-import React from 'react'
+### Aula 01/Exercicio03
 
-const Exercicio01 = ({ nome }) => {
-  return (
-    <View>
-      <Text>Olá, bem vindo {nome}</Text>
-    </View>
-  )
-}
+<img src="https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula01/aula01_2/assets/exercicio03.jpeg?raw=true" alt="Exercicio03" width="300" />
 
-export default Exercicio01
+### Aula 01/Exercicio04
 
-exercicio02
-import { View, Text, Button, StyleSheet } from 'react-native'
-import React, { useState } from 'react'
+<img src="https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula01/aula01_2/assets/exercicio04.jpeg?raw=true" alt="Exercicio04" width="300" />
 
-const Exercicio02 = () => {
+### Aula 02/Exercicio01
 
-    const [contador, setContador] = useState(0);
+<img src="https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula02/assets/exercicio01.jpeg?raw=true" alt="Exercicio01" width="300" />
 
-    function incrementar () {
-        setContador(contador + 1);
-    }
+### Aula 02/Exercicio02
 
-    function decrementar () {
-        setContador(contador - 2);
-    }
+<img src="https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula02/assets/exercicio02.jpeg?raw=true" alt="Exercicio02" width="300" />
 
-  return (
-    <View style={styles.container}>
-        <Button title='incrementar' onPress={incrementar} />        
-        <text>O contador está em: {contador}</text>
-        <Button title='decrementar' onPress={decrementar} />
-    </View>
-  )
-}
+### Aula 02/Exercicio03
 
-const styles = StyleSheet.create({
-    container: { 
-        alignItems: 'center',
-        justifyContent: 'center',
-        padding: 100
-    }
-});   
+<img src="https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula02/assets/exercicio03.jpeg?raw=true" alt="Exercicio03" width="300" />
 
-export default Exercicio02
+### Aula 02/Exercicio04
 
-exercicio03
-import { View, Text, TextInput, StyleSheet } from 'react-native'
-import { useState } from 'react'
-import React from 'react'
+<img src="https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula02/assets/exercicio04.jpeg?raw=true" alt="Exercicio04" width="300" />
 
-const Exercicio03 = () => {
+### Aula 02/Exercicio05
 
-    const [text, setText] = useState('')
-
-  return (
-    <View styles={SVGAnimatedNumberList.container}>
-      <TextInput
-        value={text}
-        onChangeText={setText}
-        placeholder="Digite algo aqui..."        
-      />
-      <Text>Você digitou: {text}</Text>
-    </View>
-  )
-}
-
-const styles = StyleSheet.create({
-    container: {
-        alignItems:'center',
-        justifyContent: 'center',
-        padding: 100
-    }
-})
-
-export default Exercicio03
-
-exercicio04
-import { View, Text, StyleSheet } from 'react-native'
-import React from 'react'
-
-const Exercicio04 = ({ itens }) => {
-  return (
-    <View styles={styles.container}>
-        {itens.map((item, index) => (
-            <Text key={index} style={styles.itemText}>
-                 {item}
-            </Text>
-        ))}      
-    </View>
-  );
-};
-
-const styles = StyleSheet.create({
-    container: {
-        padding: 20,
-    },
-    itemText: {
-        fontSize:18,
-        marginVertical: 5
-    }
-})
-
-export default Exercicio04
+<img src="https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula02/assets/exercicio05.jpeg?raw=true" alt="Exercicio05" width="300" />
