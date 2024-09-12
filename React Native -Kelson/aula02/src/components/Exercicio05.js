@@ -8,7 +8,7 @@ const Exercicio05 = () => {
   const addTask = () => {
     if (task.trim()) {
       setTasks([...tasks, task]);
-      setTask(''); // Limpar o campo após adicionar
+      setTask(''); // Limpar o campo 
     }
   };
 
@@ -22,7 +22,7 @@ const Exercicio05 = () => {
         <TextInput
           style={styles.input}
           placeholder="Digite uma nova tarefa"
-          placeholderTextColor="#777" // Cor do placeholder
+          placeholderTextColor="#777"
           value={task}
           onChangeText={setTask} // Atualiza o estado da tarefa
         />
