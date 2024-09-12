@@ -2,3 +2,7 @@
 
 <img src="https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula01/aula01_2/assets/exercicio01.jpeg?raw=true" alt="Exercicio01" width="400" />
 
+### Aula 01/Exercicio02
+
+<img src="https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula01/aula01_2/assets/exercicio02.jpeg?raw=true" alt="Exercicio02" width="400" />
+
