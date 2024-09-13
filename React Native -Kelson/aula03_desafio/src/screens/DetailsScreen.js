@@ -11,7 +11,7 @@ const DetailsScreen = ({ route }) => {
 
   return (
     <View style={styles.container}>
-      <Image source={profileImage} style={style.profileImage} />
+      <Image source={profileImage} style={styles.profileImage} />
       <Text style={styles.name}>Name: {user.name}</Text>
       <Text style={styles.detail}>Age: {user.age}</Text>
     </View>
@@ -38,6 +38,6 @@ const styles = StyleSheet.create({
     detail: {
       fontSize: 16,
     }
-});
+  });
 
 export default DetailsScreen
