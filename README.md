@@ -36,6 +36,6 @@
 
 ### Aula 03/Exercicio desafio
 
-<img src="https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula03_desafio/assets/exerc%C3%ADcio03.jpg?raw=true" alt="Exercicio desafio" width="300" />
+<img src="https://github.com/WillamesLima01/React-Native/blob/main/React%20Native%20-Kelson/aula03_desafio/assets/exerc%C3%ADcio03.jpg?raw=true" alt="Exercicio desafio" />
 
 
